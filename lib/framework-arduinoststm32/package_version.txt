@@ -1,0 +1,4 @@
+commit e6a56b3dec4ac1b715ca5eb94f0b51678be9cc60
+Author: Frederic.Pillon <frederic.pillon@st.com>
+
+    Update to release 1.6.1 version
