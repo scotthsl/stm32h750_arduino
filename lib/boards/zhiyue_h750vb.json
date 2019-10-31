@@ -1,9 +1,9 @@
 {
   "build": {
     "cpu": "cortex-m7",
-    "extra_flags": "-DSTM32H743xx",
+    "extra_flags": "-DSTM32H750xx",
     "f_cpu": "400000000L",
-    "mcu": "stm32h743zit6",
+    "mcu": "stm32h750vbt6",
     "variant": "ZHIYUE_H750VB"
   },
   "connectivity": [
@@ -14,7 +14,7 @@
     "default_tools": [
       "stlink"
     ],
-    "jlink_device": "STM32H743ZI",
+    "jlink_device": "STM32H750VB",
     "onboard_tools": [
       "stlink"
     ],
@@ -25,10 +25,10 @@
     "arduino",
     "stm32cube"
   ],
-  "name": "ST Nucleo H743ZI",
+  "name": "ZHIYUE H750VB",
   "upload": {
     "maximum_ram_size": 1048576,
-    "maximum_size": 2097152,
+    "maximum_size": 131072,
     "protocol": "stlink",
     "protocols": [
       "jlink",
