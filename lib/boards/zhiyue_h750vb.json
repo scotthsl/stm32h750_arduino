@@ -4,7 +4,7 @@
     "extra_flags": "-DSTM32H743xx",
     "f_cpu": "400000000L",
     "mcu": "stm32h743zit6",
-    "variant": "NUCLEO_H743ZI"
+    "variant": "ZHIYUE_H750VB"
   },
   "connectivity": [
     "can",
