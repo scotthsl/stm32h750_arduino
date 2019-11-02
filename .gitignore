@@ -14,3 +14,5 @@
 .clang_complete
 .gcc-flags.json
 
+
+lib/scripts/*.txt
