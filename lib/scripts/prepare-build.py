@@ -40,10 +40,11 @@ def sync_dir(src, dst):
     if len(dcmp.diff_files) > 0:
       print("Some files need to be updated:")
       for f in dcmp.diff_files:
-        f = join(src, f)
-        print(f)
-        os.remove(f)
-        shutil.copy(f, dst)
+        src_f = join(src, f)
+        print(src_f)
+        dst_f = join(dst, f)
+        os.remove(dst_f)
+        shutil.copy(src_f, dst)
     if len(dcmp.left_only) > 0:
       print("Some files need to be create:")
       for f in dcmp.left_only:

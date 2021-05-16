@@ -23,8 +23,8 @@ print ("++++++++++++++++++++++++++++++CXXFLAGS start++++++++++++++++++++++++++++
 print (projenv.get("CXXFLAGS", [])[:])
 print ("++++++++++++++++++++++++++++++CXXFLAGS end++++++++++++++++++++++++++++++\n")
 
-print ("++++++++++++++++++++++++++++++LINKFLAGS start++++++++++++++++++++++++++++++")
-print (projenv.get("LINKFLAGS", [])[:])
+#print ("++++++++++++++++++++++++++++++LINKFLAGS start++++++++++++++++++++++++++++++")
+#print (projenv.get("LINKFLAGS", [])[:])
 print ("LDSCRIPT_PATH: " + projenv.get("LDSCRIPT_PATH"))
 print ("++++++++++++++++++++++++++++++LINKFLAGS end++++++++++++++++++++++++++++++\n")
 

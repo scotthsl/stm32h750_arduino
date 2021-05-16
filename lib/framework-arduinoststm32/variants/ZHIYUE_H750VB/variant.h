@@ -200,12 +200,12 @@ extern "C" {
 #define TIMER_SERVO             TIM2  //TODO: advanced-control timers don't work
 
 // UART Definitions
-#define SERIAL_UART_INSTANCE    3 //Connected to ST-Link
+#define SERIAL_UART_INSTANCE    1 //Connected to ST-Link
 
 // Serial pin used for console (ex: ST-Link)
 // Required by Firmata
-#define PIN_SERIAL_RX           PD9
-#define PIN_SERIAL_TX           PD8
+#define PIN_SERIAL_RX           PA_10
+#define PIN_SERIAL_TX           PA_9
 
 /* Extra HAL modules */
 #define HAL_DAC_MODULE_ENABLED
